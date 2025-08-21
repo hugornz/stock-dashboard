@@ -1,4 +1,9 @@
 {
-  "githubLogging": { "owner": "hugornz", "repo": "stock-dashboard" },
-  "googleAppsScript": { "webAppUrl": "https://script.google.com/macros/s/AKfycbxx82g4dEpsYYWC_IdZWM25jx-HfHCZbbW2i9Fa9CO5mtymn7elXHFCiHMfx6-kib2ajQ/exec" }
+  "githubLogging": {
+    "owner": "hugornz",
+    "repo": "stock-dashboard"
+  },
+  "googleAppsScript": {
+    "webAppUrl": "PUT_YOUR_GAS_WEB_APP_URL_HERE"
+  }
 }

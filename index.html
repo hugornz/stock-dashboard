@@ -3,31 +3,41 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Market Watch — Alerts & 15-Stock Dashboard</title>
+  <title>Market Watch — Alerts & Watchlist</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="site-header">
     <h1>Market Watch</h1>
     <div class="actions">
-      <button id="resetState">Reset</button>
-      <button id="refreshData">Reload</button>
-      <button id="exportActions">Export</button>
+      <button id="resetState" title="Clear local changes (localStorage)">Reset</button>
+      <button id="refreshData" title="Reload data">Reload</button>
+      <button id="exportActions" title="Download CSV of your actions">Export</button>
     </div>
   </header>
+
   <main>
     <section class="panel" id="alertsPanel">
-      <div class="panel-head"><h2>Daily Alert Summary</h2></div>
-      <div id="alertsTableWrap"></div>
+      <div class="panel-head">
+        <h2>Daily Alert Summary</h2>
+        <div class="panel-sub">Compares <code>prices.json</code> against <code>alerts.json</code> for <span id="asofDate">date</span>.</div>
+      </div>
+      <div id="alertsTableWrap" class="table-wrap"></div>
     </section>
+
     <section class="panel">
-      <div class="panel-head"><h2>Watchlist (15)</h2></div>
+      <div class="panel-head">
+        <h2>Watchlist (15)</h2>
+        <div class="panel-sub">Tap ✅ to mark entered. ❌ hides locally.</div>
+      </div>
       <section id="grid" class="grid"></section>
     </section>
   </main>
+
   <footer class="site-footer">
     <p>Dashboard live at <a href="https://hugornz.github.io/stock-dashboard/" target="_blank">hugornz.github.io/stock-dashboard/</a></p>
   </footer>
+
   <template id="tile-template">
     <article class="tile">
       <div class="tile-header">
@@ -46,6 +56,7 @@
       </div>
     </article>
   </template>
+
   <script src="app.js"></script>
 </body>
 </html>
