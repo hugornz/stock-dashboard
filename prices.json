@@ -1,0 +1,13 @@
+{
+  "asof": "2025-08-21",
+  "prices": {
+    "BXB.AX": {
+      "open": 23.77,
+      "high": 26.3,
+      "low": 23.65,
+      "close": 26.3,
+      "prev_close": 25.1,
+      "prev_low": 23.6
+    }
+  }
+}

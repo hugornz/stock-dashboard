@@ -3,30 +3,35 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Market Watch — 15-Stock Dashboard</title>
+  <title>Market Watch — Alerts & 15-Stock Dashboard</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="site-header">
     <h1>Market Watch</h1>
     <div class="actions">
-      <button id="resetState" title="Clear local changes (localStorage)">Reset</button>
-      <button id="refreshData" title="Reload data.json">Reload</button>
+      <button id="resetState">Reset</button>
+      <button id="refreshData">Reload</button>
+      <button id="exportActions">Export</button>
     </div>
   </header>
-
   <main>
-    <section id="grid" class="grid"></section>
+    <section class="panel" id="alertsPanel">
+      <div class="panel-head"><h2>Daily Alert Summary</h2></div>
+      <div id="alertsTableWrap"></div>
+    </section>
+    <section class="panel">
+      <div class="panel-head"><h2>Watchlist (15)</h2></div>
+      <section id="grid" class="grid"></section>
+    </section>
   </main>
-
   <footer class="site-footer">
-    <p>Tap a tile to view details. ✅ marks entered; ❌ removes from view (local only).</p>
+    <p>Dashboard live at <a href="https://hugornz.github.io/stock-dashboard/" target="_blank">hugornz.github.io/stock-dashboard/</a></p>
   </footer>
-
   <template id="tile-template">
     <article class="tile">
       <div class="tile-header">
-        <h2 class="ticker"></h2>
+        <h3 class="ticker"></h3>
         <span class="status-pill" hidden>Entered</span>
       </div>
       <div class="levels">
@@ -41,7 +46,6 @@
       </div>
     </article>
   </template>
-
   <script src="app.js"></script>
 </body>
 </html>

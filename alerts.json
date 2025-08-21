@@ -1,0 +1,29 @@
+{
+  "rules": [
+    {
+      "ticker": "BXB.AX",
+      "above": 26.0,
+      "below": 23.5
+    },
+    {
+      "ticker": "SUL.AX",
+      "above": 19.0,
+      "below": 16.0
+    },
+    {
+      "ticker": "FPH.NZ",
+      "above": 39.5,
+      "below": 36.5
+    },
+    {
+      "ticker": "CDT.AX",
+      "above": 0.067,
+      "below": 0.063
+    },
+    {
+      "ticker": "RUA.NZ",
+      "pct_above_prior_close": 5,
+      "below_prior_low": true
+    }
+  ]
+}
