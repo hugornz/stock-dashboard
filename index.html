@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Market Watch — 15-Stock Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Market Watch</h1>
+    <div class="actions">
+      <button id="resetState" title="Clear local changes (localStorage)">Reset</button>
+      <button id="refreshData" title="Reload data.json">Reload</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="grid" class="grid"></section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Tap a tile to view details. ✅ marks entered; ❌ removes from view (local only).</p>
+  </footer>
+
+  <template id="tile-template">
+    <article class="tile">
+      <div class="tile-header">
+        <h2 class="ticker"></h2>
+        <span class="status-pill" hidden>Entered</span>
+      </div>
+      <div class="levels">
+        <div><strong>Support</strong> <span class="support">—</span></div>
+        <div><strong>Resistance</strong> <span class="resistance">—</span></div>
+        <div><strong>Entry</strong> <span class="entry">—</span></div>
+        <div><strong>Exit</strong> <span class="exit">—</span></div>
+      </div>
+      <div class="tile-actions">
+        <button class="btn enter">✅ Entered</button>
+        <button class="btn remove">❌ Remove</button>
+      </div>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>

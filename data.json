@@ -1,0 +1,109 @@
+{
+  "stocks": [
+    {
+      "ticker": "NZX:SPK",
+      "support": 4.2,
+      "resistance": 4.6,
+      "entry": 4.32,
+      "exit": 4.55
+    },
+    {
+      "ticker": "NZX:FBU",
+      "support": 4.55,
+      "resistance": 5.1,
+      "entry": 4.7,
+      "exit": 5.0
+    },
+    {
+      "ticker": "NZX:AIA",
+      "support": 7.2,
+      "resistance": 7.8,
+      "entry": 7.35,
+      "exit": 7.7
+    },
+    {
+      "ticker": "ASX:CBA",
+      "support": 120.0,
+      "resistance": 128.0,
+      "entry": 121.5,
+      "exit": 126.5
+    },
+    {
+      "ticker": "ASX:BHP",
+      "support": 41.0,
+      "resistance": 45.5,
+      "entry": 41.8,
+      "exit": 44.8
+    },
+    {
+      "ticker": "ASX:CSL",
+      "support": 260.0,
+      "resistance": 275.0,
+      "entry": 262.5,
+      "exit": 272.0
+    },
+    {
+      "ticker": "NZX:ATM",
+      "support": 5.0,
+      "resistance": 5.6,
+      "entry": 5.15,
+      "exit": 5.5
+    },
+    {
+      "ticker": "NZX:IFT",
+      "support": 9.0,
+      "resistance": 9.6,
+      "entry": 9.15,
+      "exit": 9.5
+    },
+    {
+      "ticker": "NZX:VCT",
+      "support": 2.25,
+      "resistance": 2.55,
+      "entry": 2.3,
+      "exit": 2.5
+    },
+    {
+      "ticker": "ASX:WES",
+      "support": 60.0,
+      "resistance": 66.0,
+      "entry": 61.0,
+      "exit": 65.0
+    },
+    {
+      "ticker": "ASX:WPL",
+      "support": 27.0,
+      "resistance": 30.0,
+      "entry": 27.4,
+      "exit": 29.6
+    },
+    {
+      "ticker": "ASX:NAB",
+      "support": 33.0,
+      "resistance": 36.0,
+      "entry": 33.4,
+      "exit": 35.4
+    },
+    {
+      "ticker": "NZX:FPH",
+      "support": 24.0,
+      "resistance": 26.5,
+      "entry": 24.4,
+      "exit": 26.1
+    },
+    {
+      "ticker": "NZX:MEL",
+      "support": 6.3,
+      "resistance": 6.8,
+      "entry": 6.4,
+      "exit": 6.7
+    },
+    {
+      "ticker": "ASX:TLS",
+      "support": 3.5,
+      "resistance": 3.95,
+      "entry": 3.6,
+      "exit": 3.85
+    }
+  ]
+}
