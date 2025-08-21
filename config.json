@@ -1,6 +1,4 @@
 {
-  "githubLogging": {
-    "owner": "hugornz",
-    "repo": "stock-dashboard"
-  }
+  "githubLogging": { "owner": "hugornz", "repo": "stock-dashboard" },
+  "googleAppsScript": { "webAppUrl": "https://script.google.com/macros/s/AKfycbxx82g4dEpsYYWC_IdZWM25jx-HfHCZbbW2i9Fa9CO5mtymn7elXHFCiHMfx6-kib2ajQ/exec" }
 }
